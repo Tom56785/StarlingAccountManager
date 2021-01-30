@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarlingAccountManager", "StarlingAccountManager\StarlingAccountManager.csproj", "{73EEBC88-0DBF-4B89-9204-214D2BAC217E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarlingAPI", "StarlingAPI\StarlingAPI.csproj", "{AEA1BD66-1228-4B6B-BEB1-F9895DBDC9CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarlingAPI", "StarlingAPI\StarlingAPI.csproj", "{AEA1BD66-1228-4B6B-BEB1-F9895DBDC9CC}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{C54CB6EB-DD82-42CA-873A-F75D3386F9C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{AEA1BD66-1228-4B6B-BEB1-F9895DBDC9CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AEA1BD66-1228-4B6B-BEB1-F9895DBDC9CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AEA1BD66-1228-4B6B-BEB1-F9895DBDC9CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C54CB6EB-DD82-42CA-873A-F75D3386F9C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C54CB6EB-DD82-42CA-873A-F75D3386F9C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C54CB6EB-DD82-42CA-873A-F75D3386F9C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C54CB6EB-DD82-42CA-873A-F75D3386F9C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

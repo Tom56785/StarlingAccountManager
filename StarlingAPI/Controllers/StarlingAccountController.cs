@@ -8,7 +8,7 @@ using Microsoft.Extensions.Logging;
 namespace StarlingAPI.Controllers
 {
     [ApiController]
-    [Route("[controller]/[action]")]
+    [Route("api/[controller]/[action]")]
     public class StarlingAccountController : ControllerBase
     {
 
@@ -17,6 +17,11 @@ namespace StarlingAPI.Controllers
         public StarlingAccountController(ILogger<StarlingAccountController> logger)
         {
             _logger = logger;
+        }
+
+        public string Retrieve()
+        {
+            return "hello";
         }
     }
 }

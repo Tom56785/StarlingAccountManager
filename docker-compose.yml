@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  starlingapi:
+    image: ${DOCKER_REGISTRY-}starlingapi
+    build:
+      context: .
+      dockerfile: StarlingAPI/Dockerfile
+    ports:
+      - "49260:80"
+      - "49261:443"
